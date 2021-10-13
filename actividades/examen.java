@@ -29,7 +29,7 @@ static void bonoProf(){
     puntos = sc.nextDouble();
     sc.nextLine();
     System.out.print("Ingresar salario minimo: ");
-    S_minimo = sc.nextDouble();
+    S_minimo = sc.nextDouble(); 
     sc.nextLine();
     bono=0;
     if(puntos>=100&&puntos<=200)
@@ -58,11 +58,12 @@ static void TipVacuna(){
             System.out.print("Valor incorrecto. Ingr\u00E9salo nuevamente.: ");
     } while (sexo<1||sexo>2);
     if((sexo==2&&edad>=16&&edad<70)||edad<16)
-        System.out.println("A");
+        System.out.println("usted es apto para la vacuna A");
     if(sexo==1&&edad>=16&&edad<70)
-        System.out.println("B");
-    if(edad>70)
-        System.out.println("C");
+        System.out.println("usted es apto para la vacuna B");
+    if(edad>=70)
+        System.out.println("usted es apto para la vacuna C");
+
         System.out.println("\t Ingrese codigo nuevamente");
 
         return;
