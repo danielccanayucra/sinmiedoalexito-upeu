@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class tareasupeu{
  static Scanner sc = new Scanner(System.in);
 
- static void ejercicio1(){
+ static void botacionE(){
     //declaracion de variables de inicializacion
     int edad=0;
     //datos de entrada
@@ -277,7 +277,7 @@ public class tareasupeu{
   opcionesA=sc.nextInt();  
   while(opcionesA!=0){
       switch(opcionesA) {
-        case 1: ejercicio1();break;
+        case 1: botacionE();break;
         case 2: Sueldo_S();break;
         case 3: horasdeEst();break;
         case 4: persona_M();break;
