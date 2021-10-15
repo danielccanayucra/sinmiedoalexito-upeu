@@ -74,7 +74,7 @@ static void OperBasicas(){
   double num1=sc.nextInt();
   System.out.println("ingrese el 2do numero");
   double num2=sc.nextInt();
-  System.out.println("seleccione la operacion");
+  System.out.println("seleccione la operacion 1=+,2=-,3=*,4=/ ");
   int operacion=sc.nextInt();
   switch(operacion){
      case 1: resultado=num1+num2;
@@ -110,7 +110,7 @@ static void menuOpciones(){
     System.out.println(msg2);
     String msg3= "seleccionar vacuna (3)";
     System.out.println(msg3);
-    String msg4= " selecionar operacion 1=+,2=-,3=*,4=/ (4)"; 
+    String msg4= " selecionar operacion (4)"; 
     System.out.println(msg4);
       opcionesA=sc.nextInt();  
       while(opcionesA!=0){
