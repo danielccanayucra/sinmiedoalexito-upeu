@@ -1,2 +1,2 @@
-language = "bash"
-run = ""
+language = "java"
+run = "jar SubProgramUPeU/target/SubProgramUPeU-1.0-SNAPSHOT.jar"
