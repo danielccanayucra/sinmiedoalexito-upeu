@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejemplo{
+public class funcionExpo{
    public static void main(String [] arg){
    Scanner sc = new Scanner(System.in);
    //datos de entrada
