@@ -1,2 +1,2 @@
 language = "java"
-run = "jar SubProgramUPeU/target/SubProgramUPeU-1.0-SNAPSHOT.jar"
+run = "java -jar SubProgramaUPeU/target/SubProgramUPeU-1.0-SNAPSHOT.jar"
