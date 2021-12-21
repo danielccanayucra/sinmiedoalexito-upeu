@@ -1,0 +1,3 @@
+p1	Biblioteca municipal Lampa	manifestaciones culturales	arquitectura	5km de Lampa
+p2	Puente republicano Lampa	manifestacion cultural	arquitectura	2km de Lampa
+p3	Complejo Arqueologico De Pukara	manifestaciones culturales	sitio arqueologico	3850 m.s.n.m.
